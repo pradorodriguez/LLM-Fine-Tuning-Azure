@@ -2,6 +2,15 @@
 **Fine-Tuning LLMs on Azure** is a modular, beginner-to-expert-friendly guide for customizing both OpenAI and open-source language models using Azure. Designed for Data Scientists, Machine Learning Engineers, and even those without a deep technical background, this repository offers a clear, scalable path to mastering LLM fine-tuning with practical, real-world examples on the Azure cloud platform.
 
 ## New
+🔥 New (2026-03-16): SFT Fine-tuning GPT-4o for Chart Analysis (Pro-Code)
+<a href="labs/fine_tuning_notebooks/gpt_fine_tuning/gpt4o_fine_tuning_vision_text_chartanalysis.ipynb">[Jump to the demo]</a>
+
+🔥 New (2026-03-16): DPO Fine-Tuning GPT-4o Model for Text Q&A - A Python SDK Experience (Pro-Code)
+<a href="labs/fine_tuning_notebooks/gpt_fine_tuning/gpt_4o_dpo_fine_tuning_for_text_qa_v2.ipynb">[Jump to the demo]</a>
+
+🔥 New (2026-03-16): Fine-Tuning GPT-4o-mini Model with RFT- An AI Foundry Dashboard Experience (No-Code)
+<a href="labs/fine_tuning_dashboards/gpt_4o_mini_rft_fine_tuning_azure_ai_foundry_dashboard.md">[Jump to the demo]</a>
+
 🔥 New (2025-08-01): Phi-3-mini Fine-Tuning using LoRA from Hugging Face TRL Open Source Python SDK (Pro-Code)
 <a href="labs/fine_tuning_notebooks/phi_fine_tuning/phi_3_mini_instruct_supervised_fine_tuning_for_text_qa_using_lora_from_hf_trl.ipynb">[Jump to the demo]</a>
 
@@ -54,6 +63,7 @@ You may consider Fine-Tuning when:
 - [Lab 1.3](labs/fine_tuning_dashboards/gpt_4o_mini_fine_tuning_azure_ai_foundry_dashboard.md): Supervised Fine-Tuning GPT-4o-mini Model (*1h duration*)
 - [Lab 1.4](labs/fine_tuning_dashboards/gpt_4.1_mini_fine_tuning_azure_ai_foundry_dashboard.md): Supervised Fine-Tuning GPT-4.1-mini Model (*1h duration*)
 - [Lab 1.5](labs/fine_tuning_dashboards/phi_4_mini_fine_tuning_azure_ai_foundry_dashboard.md): Supervised Fine-Tuning Phi-4-mini Model (*1h duration*)
+- [Lab 1.6](labs/fine_tuning_dashboards/gpt_4o_mini_rft_fine_tuning_azure_ai_foundry_dashboard.md): Reinforcement Fine-Tuning GPT-4o Model (*1h duration*)
 
 **Lab 2: LLM Fine-Tuning via *Azure Python SDK***
 - [Lab 2.1](labs/fine_tuning_notebooks/gpt_fine_tuning/gpt_35_turbo_fine_tuning.ipynb): Supervised Fine-Tuning GPT-3.5 Models (*2h duration*)
@@ -61,6 +71,8 @@ You may consider Fine-Tuning when:
 - [Lab 2.3](labs/fine_tuning_notebooks/gpt_fine_tuning/gpt_4o_supervised_fine_tuning_for_text_qa.ipynb): Supervised Fine-Tuning GPT-4o Model (*2h duration*)
 - [Lab 2.4](labs/fine_tuning_notebooks/gpt_fine_tuning/gpt_4o_dpo_fine_tuning_for_text_qa.ipynb): DPO Fine-Tuning GPT-4o Model (*2h duration*)
 - [Lab 2.5](labs/fine_tuning_notebooks/phi_fine_tuning/phi_4_mini_supervised_fine_tuning_for_text_qa.ipynb): Supervised Fine-Tuning Phi-4 Model (*2h duration*)
+- [Lab 2.6](labs/fine_tuning_notebooks/gpt_fine_tuning/gpt_4o_dpo_fine_tuning_for_text_qa_v2.ipynb): Direct Preference Optimization Fine-Tuning GPT-4o Model (*2h duration*)
+- [Lab 2.7](labs/fine_tuning_notebooks/gpt_fine_tuning/gpt4o_fine_tuning_vision_text_chartanalysis.ipynb): Supervised Fine-Tuning GPT-4o Model (*2h duration*)
 
 **Lab 3: LLM Fine-Tuning via *Open Source Tools***
 - [Lab 3.1](labs/fine_tuning_notebooks/llama3_fine_tuning/llama3.2-11b-supervised-fine-tuning-for-vision-text-qa-using-unsloth.ipynb): Supervised Fine-Tuning Llama3.2-11B Vision Model using Unsloth AI Framework (*3h duration*)
